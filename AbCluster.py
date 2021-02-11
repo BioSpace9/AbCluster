@@ -87,7 +87,7 @@ class AbCluster:
     
     def _sortedStringList(self, array=[]):
         
-        sortDict = OrderedDict() # 空の辞書を作成
+        sortDict = OrderedDict()
         for splitList in array:
             sortDict.update({splitList:[int(x) for x in re.split("(\d+)",splitList)if bool(re.match("\d*",x).group())]})
 
@@ -96,7 +96,7 @@ class AbCluster:
     
     def _sortedHeadList(self, array=[]):
         
-        sortDict=OrderedDict() # 空の辞書を作成
+        sortDict=OrderedDict()
         for splitList in array:
             sortDict.update({splitList:[splitList[0]]})
 
@@ -134,8 +134,6 @@ class AbCluster:
         f = open('{}/numbered_sequences.anarci'.format(self.result_path), "r", encoding="utf-8")
         anarci = f.readlines()
 
-        # 残基ごとに列を分けて値を格納する方法
-        # dictionaryをDataframeにするときに存在しないkeywordはNAN処理される
         records = []
         record = {}
         idx = ''
