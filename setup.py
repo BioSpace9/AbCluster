@@ -26,7 +26,7 @@ setup(
     classifiers=[
         'Development Status :: 4 - Production/Stable',
         'Natural Language :: Japanese',
-        'Operating System :: POSIX :: Linux'
+        'Operating System :: POSIX :: Linux',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.7',
