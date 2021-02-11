@@ -24,7 +24,7 @@ setup(
     keywords='antibody sequence translation numbering clustering',
 
     classifiers=[
-        'Development Status :: 4 - Production/Stable',
+        'Development Status :: 4 - Beta',
         'Natural Language :: Japanese',
         'Operating System :: POSIX :: Linux',
         'Programming Language :: Python',
