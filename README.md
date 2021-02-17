@@ -54,6 +54,9 @@ c = a.classification(df=b, model='kmeans', n_clusters=8)
 
 Use Linux for using ANARCI
 
+# Citation
+http://biopython.org/DIST/docs/tutorial/Tutorial.html
+
 # Author
 
 * BioSpace
